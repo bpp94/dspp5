@@ -1,4 +1,5 @@
 title: JP Portfolio
-logo:
-show_downloads:true
-theme: jekyll-theme-minimal
+logo: /images/profilephoto.jpg
+#description: text below image
+show_downloads: true
+theme: jekyll-theme-minimal 

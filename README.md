@@ -50,3 +50,15 @@ The data is ordered by position_name but can be changed to order by any metric. 
 
 # Recommendations
 It would be ideal to create an API (Application Programming Interface) to download the latest file and keep the data as up to date as possible rather than manually downloading the file each time it’s updated. In regards to the model and the data, something it doesn’t take into consideration is a team’s fixtures, for example if a team faces teams who are performing badly at the time, then a player may have a spell where he gets a lot of points in this period but struggles against tougher opposition. This would possibly go against the model’s metrics and produce outliers. Data regarding team’s fixtures and table positions could potentially joined to account to the main dataset to account for this and accommodate the model.
+
+# Resources
+
+The Government Data Quality Framework - GOV.UK: https://www.gov.uk/government/publications/the-government-data-quality-framework/the-government-data-quality-framework#Data-quality-dimensions
+
+What Is Visual Studio? | Microsoft Learn: https://learn.microsoft.com/en-us/visualstudio/get-started/visual-studio-ide?view=vs-2022
+
+What is Python? Executive Summary | Python.org: https://www.python.org/doc/essays/blurb/
+
+Linear vs Logistic Regression - Difference Between Machine Learning Techniques - AWS: https://aws.amazon.com/compare/the-difference-between-linear-regression-and-logistic-regression/
+
+R-Squared - Definition, Interpretation, Formula, How to Calculate: https://corporatefinanceinstitute.com/resources/data-science/r-squared/

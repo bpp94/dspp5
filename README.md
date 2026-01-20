@@ -8,7 +8,10 @@ The use of this data will to be evaluate if a Linear Regression model can be use
 
 # Data Engineering
 The file will then have EDA (Exploratory Data Analysis) via visual inspection of columns to see if any errors stand out within the data.
+
+
  ![Player_Name_EDA](images/Player_Name_EDA.png) 
+ 
 
 As shown here it is already identifiable that there are issues with the player names. This is due to the limitations in excel of characters in the data i.e. Jurriën J.Timber, a solution to this if it’s minimal this happens to manually update in the file and this would be easy for someone who would easily work out which player it is but may require research for others. Another issue could be duplicates within the data. A quick check for this would be to use excel’ s Conditional Formatting on the player’s name and choosing highlight duplicate values. In this instance there were 0 duplicate values within the dataset. As someone may want to use different columns for later analysis then it would be best to keep these columns but there is the issue of thinking data is incomplete for some fields i.e. a Keeper may not have many or any shooting stats. This would not mean the data does not follow the framework of completeness.
 

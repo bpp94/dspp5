@@ -11,7 +11,11 @@ The file will then have EDA (Exploratory Data Analysis) via visual inspection of
  ![Player_Name_EDA](images/Player_Name_EDA.png) 
 
 As shown here it is already identifiable that there are issues with the player names. This is due to the limitations in excel of characters in the data i.e. Jurriën J.Timber, a solution to this if it’s minimal this happens to manually update in the file and this would be easy for someone who would easily work out which player it is but may require research for others. Another issue could be duplicates within the data. A quick check for this would be to use excel’ s Conditional Formatting on the player’s name and choosing highlight duplicate values. In this instance there were 0 duplicate values within the dataset. As someone may want to use different columns for later analysis then it would be best to keep these columns but there is the issue of thinking data is incomplete for some fields i.e. a Keeper may not have many or any shooting stats. This would not mean the data does not follow the framework of completeness.
- ![DQF](images/Data Quality Framework.png) 
+
+
+ ![DQF](images/Data_Quality_Framework.png) 
+
+
 Ensuring the data is covering the UK Government data quality framework is important but can be a struggle with public data as for example how would people know how accurate the data is? Downloading the latest data would cover this but if the data is incorrect at source, then corrected later this would need to be updated in the file that has been downloaded. Data is fundamental to effective, evidence-based decision-making. It underpins everything from major policy decisions to routine operational process. Often, however, our data is of unknown or questionable quality. GOV.UK (2026)
 
 # Data Infrastructure and Tools
@@ -23,12 +27,22 @@ The hypothesis, can an advantage gained through wildcarding will try to be asses
 In Kaggle, a user had provided code for an algorithm using linear regression to help with picking players during wildcarding. This code had to be changed due to possible security concerns around the packages being downloaded.
 In terms of the data analysis, there is various metrics that can attribute to a player being valuable for selection once a run of games has set in. The two that are focused on in the Linear regression model that was Total Points, Form and Bonus points where these numerical values fit a linear regression model. 
 
- ![Metric](images/Metric defined evaluation.png) 
+
+ ![Metric](images/Metric_defined_evaluation.png) 
  
+
 These metrics will be used to evaluate the initial choices for the wildcard.
+
+
  ![Position](images/Position.png) 
+
+ 
 This is then based on the budget available which is 100m but depending on players initial choices at the start of a season, a player can increase in value if they hit the ground running so a player’s budget can be more than this or less if they have players who’ve decreased in value. Another metric to consider is the player positions. You able to have 2 Goalkeepers, 5 Defenders, 5 Midfielders and 3 Forwards. The model is based on preference of initial formation for the starting 11 or can also be based on the whole squad if that would be a preference.
+
+
  ![Evaluation](images/Evaluation.png)
+
+ 
 The data is ordered by position_name but can be changed to order by any metric. Looking at the data, a forward is the one with most total_points and bonus producing a metric of 6357 which is the highest out of all positions and makes this a certain choice to be picked. Changing or adding different variables to this model would change the value of this metric but there needs to be consideration as you wouldn’t use a variable such as clean_sheets to assess a forward’s selection. This evaluation of the model is based on something like using R-squared. R-Squared (R² or the coefficient of determination) is a statistical measure in a regression model that determines the proportion of variance in the dependent variable that can be explained by the independent variable. Corporate Finance Institute (2026).
 
 # Recommendations

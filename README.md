@@ -40,7 +40,7 @@ These metrics will be used to evaluate the initial choices for the wildcard.
  ![Position](images/Position.png) 
 
  
-This is then based on the budget available which is 100m but depending on players initial choices at the start of a season, a player can increase in value if they hit the ground running so a player’s budget can be more than this or less if they have players who’ve decreased in value. Another metric to consider is the player positions. You able to have 2 Goalkeepers, 5 Defenders, 5 Midfielders and 3 Forwards. The model is based on preference of initial formation for the starting 11 or can also be based on the whole squad if that would be a preference.
+This is then based on the budget available which is 100m but depending on players initial choices at the start of a season, a player can increase in value if they hit the ground running the budget can be more than this or less if they have players who’ve decreased in value. Another metric to consider is the player positions. You able to have 2 Goalkeepers, 5 Defenders, 5 Midfielders and 3 Forwards. The model is based on preference of initial formation for the starting 11 or can also be based on the whole squad if that would be a preference.
 
 
  ![Evaluation](images/Evaluation.png)
